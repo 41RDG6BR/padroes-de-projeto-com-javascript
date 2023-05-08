@@ -1,0 +1,37 @@
+GRASP significa General Responsibility Assignment Software Patterns (Padrões Gerais de Atribuição de Responsabilidade em Software), que é um conjunto de princípios e padrões que ajudam a projetar sistemas orientados a objetos mais robustos, flexíveis e adaptáveis. Esses padrões se concentram na atribuição de responsabilidades a classes e objetos para maximizar a coesão e minimizar o acoplamento em um sistema.
+
+Os principais padrões GRASP são:
+
+Expert: 
+
+Atribuir responsabilidade a objetos que têm as informações necessárias para executar uma tarefa específica. Por exemplo, um objeto de carrinho de compras é responsável por calcular o valor total do carrinho, pois ele tem informações sobre os itens do carrinho.
+
+Creator:
+
+Atribuir a responsabilidade de criar objetos a classes que têm as informações necessárias para criar objetos de um tipo específico. Por exemplo, uma classe de fábrica é responsável por criar objetos de diferentes tipos de produtos.
+
+Controller: 
+
+Atribuir a responsabilidade de gerenciar o fluxo de interação do usuário a um objeto ou conjunto de objetos. Por exemplo, um objeto de controlador de login é responsável por gerenciar o processo de login do usuário.
+
+Low Coupling: 
+
+Minimizar o acoplamento entre objetos, mantendo-os independentes e com baixa dependência de outros objetos. Isso ajuda a aumentar a flexibilidade e a manutenibilidade do sistema.
+
+High Cohesion: 
+
+Maximizar a coesão dentro das classes, agrupando os membros relacionados e mantendo o foco em uma única responsabilidade.
+
+Polymorphism: 
+
+Permitir que objetos de diferentes classes respondam ao mesmo método, tornando o sistema mais flexível e extensível.
+
+Indirection: 
+
+Adicionar uma camada de abstração para reduzir o acoplamento entre objetos. Por exemplo, usar uma interface para acessar um objeto em vez de acessá-lo diretamente.
+
+Pure Fabrication: 
+
+Atribuir responsabilidades a classes que não representam conceitos no mundo real, mas que ajudam a manter a coesão e o baixo acoplamento no sistema.
+
+Esses padrões podem ser usados em conjunto para projetar sistemas orientados a objetos mais robustos e flexíveis.
